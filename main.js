@@ -10,15 +10,15 @@ function returnFalse(str) {
 }
 
 function isOpposite(condition) {
-  
+  return !condition;
 }
 
 function both(condition1, condition2) {
-
+  return condition1 && condition2;
 }
 
 function either(condition1, condition2) {
-
+return condition1 || condition2;
 }
 
 function neither(condition1, condition2) {
